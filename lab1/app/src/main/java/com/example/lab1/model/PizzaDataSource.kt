@@ -3,7 +3,7 @@ package com.example.lab1.model
 import com.example.lab1.R
 
 object PizzaDataSource {
-    val pizzaList = arrayListOf(
+    val pizzaList: ArrayList<ParentPizza> = arrayListOf(
         Pizza(
             name = "Wow! Kebab",
             shortdescription = "Beef kebab, ranch sauce, mozarella cheese, sweet pepper, tomatoes, red onion, marinara sauce",
@@ -22,6 +22,12 @@ object PizzaDataSource {
             price = 2000,
             imageRes = R.drawable.hampickes
         ),
+        NewPizza(
+            name = "KikoRiki Combo",
+            shortdescription = "Approved by cartoon characters: small pizza of any flavor and young gardener's kit Combo price depends on the selected pizzas and may change.",
+            price = 2300,
+            imageRes = R.drawable.combo1
+        ),
         Pizza(
             name = "Cheesy",
             shortdescription = "Mozzarella cheese, cheddar cheese, parmesan cheese, Alfredo sauce",
@@ -39,6 +45,12 @@ object PizzaDataSource {
             shortdescription = "Double chicken, mozzarella cheese, Alfredo sauce",
             price = 2900,
             imageRes = R.drawable.doublecincken
+        ),
+        NewPizza(
+            name = "Bavarian",
+            shortdescription = "Spicy chorizo sausages, pickled cucumbers, red onions, tomatoes, mustard sauce, mozzarella, signature tomato sauce",
+            price = 1600,
+            imageRes = R.drawable.combo3
         ),
         Pizza(
             name = "Chorizo fresh",
