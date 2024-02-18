@@ -1,3 +1,3 @@
 ### HOMEPAGE
 
-<img src = "./assets/homepage1.png" width=400 height=810>
+<img src = "./assets/homepage1.png" width=450 height=1000>
