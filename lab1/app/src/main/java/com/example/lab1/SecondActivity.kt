@@ -24,4 +24,6 @@ class SecondActivity : AppCompatActivity() {
             binding.btn.text="Add to cart " + pizza.price.toString() + " KZT"
         }
     }
+    fun goBack(view: View) {    finish()
+    }
 }

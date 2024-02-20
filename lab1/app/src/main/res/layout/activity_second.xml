@@ -5,17 +5,29 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:fontFamily="sans-serif-medium">
 
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="3dp"
+            android:backgroundTint="@color/orange"
+            android:onClick="goBack"
+
+            android:background="@drawable/car_ui_icon_arrow_back" />
+
         <ImageView
             android:id="@+id/pizzaphoto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="1dp"
             tools:srcCompat="@drawable/wowkebab" />
 
         <LinearLayout
